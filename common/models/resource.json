@@ -12,13 +12,13 @@
       "type": "string",
       "required": true
     },
-    "sittingCapacity": {
+    "userCapacity": {
       "type": "number",
       "required": true
     },
     "standingCapacity": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "active": {
       "type": "boolean",
