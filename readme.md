@@ -39,15 +39,15 @@ http://localhost:3000/explorer/
 See below to see the relationships of the models.
 
 ## Model relationships
-> Booking `belongs_to` Room
+> Booking `belongs_to` Resource
 
-> Feature `belongs_to` Room
+> Feature `belongs_to` Resource
 
-> Location `has_many` Rooms
+> Location `has_many` Resources
 
-> Room `belongs_to` Location  
-> Room `has_many` Bookings  
-> Room `has_many` Features
+> Resource `belongs_to` Location  
+> Resource `has_many` Bookings  
+> Resource `has_many` Features
 
 ## Environment Variables
 `MONGODB_URI` - URI for your production database.  

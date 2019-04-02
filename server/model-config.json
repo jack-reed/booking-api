@@ -36,7 +36,7 @@
     "dataSource": "db",
     "public": true
   },
-  "Room": {
+  "Resource": {
     "dataSource": "db",
     "public": true
   },
